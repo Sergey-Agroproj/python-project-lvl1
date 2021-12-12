@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: linter-test
         run: |
-          pip instal poetry
+          pip install poetry
           make lint
 
