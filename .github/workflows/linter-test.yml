@@ -1,0 +1,11 @@
+name: linter-test
+on: push
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: linter-test
+        run:
+          pip instal poetry
+          make lint
+
