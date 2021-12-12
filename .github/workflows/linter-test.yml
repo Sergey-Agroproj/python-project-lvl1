@@ -11,5 +11,5 @@ jobs:
       - name: linter-test
         run: |
           pip install poetry
-          lint
+          make lint
 
