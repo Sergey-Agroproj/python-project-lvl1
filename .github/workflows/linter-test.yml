@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: linter-test
-        run:
+        run: |
           pip instal poetry
           make lint
 
