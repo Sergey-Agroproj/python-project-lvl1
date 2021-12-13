@@ -10,5 +10,6 @@ jobs:
     steps:
       - name: Run linter
         run: |
+          make install
           make lint
 
