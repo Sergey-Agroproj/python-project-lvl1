@@ -9,7 +9,8 @@ jobs:
 
     steps:
       - name: Run linter
-        run: |
-          make install
+        run:
+          pip install poetry
+        run:
           make lint
 
