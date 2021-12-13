@@ -1,5 +1,5 @@
-name: lint
-on: push
+name: Linter Test
+on: [push]
 jobs:
   build:
 
@@ -8,8 +8,7 @@ jobs:
 
 
     steps:
-      - name: lint
+      - name: Run linter
         run: |
-          pip install poetry
           make lint
 
