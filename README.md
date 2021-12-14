@@ -7,6 +7,6 @@
 
 ### Links
 
-[![asciinema](https://asciinema.org/images/logo-red-949d10005bb389d1ae900a13b5ac53d7.svg?vsn=d)](https://asciinema.org/a/7KtzE0ZtVvQEAOYUVVX2DU2ZS)
+[asciinema](https://asciinema.org/a/7KtzE0ZtVvQEAOYUVVX2DU2ZS)
 
 
