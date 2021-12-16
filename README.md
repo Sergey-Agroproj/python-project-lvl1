@@ -7,6 +7,6 @@
 
 ### Links
 
-[asciinema](https://asciinema.org/a/5LK30S62NyJweLGnl2yPxe5jT)
+[asciinema](https://asciinema.org/a/1bOqdnJl5YmTTeSOuAuzGAb7t)
 
 
