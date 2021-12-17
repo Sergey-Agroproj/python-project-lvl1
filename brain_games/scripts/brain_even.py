@@ -2,7 +2,7 @@
 
 
 from brain_games.cli import welcome_user
-from brain_games.games.is_even import is_even
+from brain_games.games.is_even import even
 
 
 def main():
@@ -10,7 +10,7 @@ def main():
     name = welcome_user()
     print('Hello, {}!'.format(name))
 
-    is_even(name)
+    even(name)
 
 
 if __name__ == '__main__':
