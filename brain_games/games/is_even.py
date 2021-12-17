@@ -3,12 +3,6 @@ import random
 import prompt
 
 
-def is_even(num):
-    if num % 2 == 0:
-        return True
-    return False
-
-
 def even(name):
     print('Answer "yes" if the number is even, otherwise "no".')
     count = 0
@@ -16,7 +10,7 @@ def even(name):
         request = random.randint(1, 100)
         print('Question: {}'.format(request))
         answer = prompt.string('Your answer: ')
-        if is_even(request) is True:
+        if request % 2 == 0:
             may_answer = 'yes'
         else:
             may_answer = 'no'
