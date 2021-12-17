@@ -18,8 +18,9 @@ def even(name):
             print('Correct!')
             count += 1
         else:
-            print("""'{}' is wrong answer ;(. Correct answer was '{}'
-Let's try again, {}!""".format(answer, may_answer, name))
+            print("'{}' is wrong answer ;(.".format(answer), end=' ')
+            print("Correct answer was '{}'".format(may_answer))
+            print("Let's try again, {}!".format(name))
             break
     if count == 3:
         print('Congratulations, {}!'.format(name))

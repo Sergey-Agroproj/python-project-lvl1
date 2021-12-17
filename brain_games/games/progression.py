@@ -10,7 +10,7 @@ def ar_pr():
     length = random.randint(5, 10)
     stop = start + step * (length - 1)
     my_list = []
-    for i in range(start, stop, step ):
+    for i in range(start, stop + 1, step):
         my_list.append(i)
     return my_list
 
